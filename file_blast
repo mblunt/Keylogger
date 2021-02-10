@@ -1,0 +1,26 @@
+#file blast, to everyone on 192.168.x.x
+
+import socket
+
+clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+
+i = 0
+j = 0
+
+While True:
+  oct3 = i
+  oct4 = j
+  
+  if oct3 = 255:
+    i = 0
+    j = j + 1
+    
+   ip = str("192.168."+j+"."+i)
+   clientSocket.connect((ip,4444))
+   
+   f = open(".out")
+   data = f.read()
+   clientSocket.send(data)
+   
+   i = i + 1
