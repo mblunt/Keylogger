@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*-coding:Latin-1 -*
 
-#Created based on another python keylogger by Michael Blunt
+#Created based on another python keylogger 
+#edited by Michael Blunt
 #Good job if you found this, original author's credits removed for use in competition(s).
 
 import sys
